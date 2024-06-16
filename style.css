@@ -6,7 +6,6 @@
 }
 
 body {
-  width: 100vw;
   background-color: rgb(254, 253, 253);
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
@@ -200,6 +199,10 @@ body {
 
   :is(.pro-section, .name, .email, .logout) {
     display: none;
+  }
+
+  .product-tag {
+    display: grid;
   }
 
   :is(.products, .profile) {
